@@ -23,7 +23,7 @@ stages:
           displayName: restore
           inputs:
             command: 'restore'
-            projects: '**/*.sln'
+            projects: 'eShop.sln'
             feedsToUse: select
         - task: DotNetCoreCLI@2
           displayName: Build
