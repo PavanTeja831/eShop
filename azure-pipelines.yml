@@ -24,7 +24,7 @@ stages:
           displayName: Build
           inputs:
            command: 'build'
-           projects: '**/*.sln'
+           projects: '**/*.csproj'
         - task: DotNetCoreCLI@2
           displayName: Unit-Test
           inputs:
